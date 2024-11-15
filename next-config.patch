@@ -1,0 +1,12 @@
+diff --git a/next.config.js b/next.config.js
+index 4a208ebb..9c716638 100644
+--- a/next.config.js
++++ b/next.config.js
+@@ -1,6 +1,7 @@
+ /** @type {import('next').NextConfig} */
+ 
+ const nextConfig = {
++  output: 'standalone',
+   reactStrictMode: true,
+   images: {
+     domains: [
